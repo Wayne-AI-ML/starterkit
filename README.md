@@ -16,7 +16,13 @@ rm ~/miniconda3/miniconda.sh
 2. Create conda environment
 
 ```bash
-conda env create -f conda_env.yml
+conda env create -n dl -f conda_env.yml
+```
+
+3. Activate the conda environment
+
+```bash
+conda activate dl
 ```
 
 3. Install Python libraries
